@@ -1,0 +1,92 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #626262;
+  --primary-text-style: 'Playfair Display', serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--primary-text-style);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.site-navigation .link {
+  display: block;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.site-navigation .link:hover,
+.site-navigation .link:focus {
+  color: #03a9f3;
+}
+
+.page-nav {
+  min-height: 190px;
+}
+
+.list-item .subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.list-item .title {
+  font-size: 30px;
+}
+
+.main-section {
+  margin-top: 0;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.section {
+  background-color: teal;
+}
+
+.list-item .about {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.button {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+}

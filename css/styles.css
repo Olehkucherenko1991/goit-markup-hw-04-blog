@@ -66,6 +66,7 @@ body {
 
 .list-item .title {
   font-size: 30px;
+  margin: 0px;
 }
 
 .main-section {
@@ -73,23 +74,35 @@ body {
   flex-wrap: wrap;
 }
 
-.list-item {
+.main-section .list-item {
   list-style: none;
-  flex-basis: calc(100% / 2-30px);
+  flex-basis: calc(100% / 2 - 30px);
   margin-right: 60px;
 }
 
 .list-item:nth-child(2n) {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .list-item .about {
   font-size: 14px;
   line-height: 1.8;
+  margin: 35px 0 0 0;
 }
 
 .button {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 20px;
   cursor: pointer;
   font-family: 'Playfair Display', serif;
+  width: 165px;
+  height: 60px;
+}
+
+.button-text {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }

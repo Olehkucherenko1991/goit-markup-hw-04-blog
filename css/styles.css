@@ -78,10 +78,15 @@ body {
   list-style: none;
   flex-basis: calc(100% / 2 - 30px);
   margin-right: 60px;
+  margin-bottom: 135px;
 }
 
 .list-item:nth-child(2n) {
   margin-right: 0px;
+}
+
+.list-item:nth-last-child(-n + 2) {
+  margin-bottom: 55px;
 }
 
 .list-item .about {

@@ -76,6 +76,7 @@ body {
 .main-section {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 55px;
 }
 
 .main-section .list-item {

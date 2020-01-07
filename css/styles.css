@@ -62,11 +62,15 @@ body {
   color: #b4ad9e;
   font-size: 14px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .list-item .title {
   font-size: 30px;
-  margin: 0px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .main-section {
@@ -86,13 +90,13 @@ body {
 }
 
 .list-item:nth-last-child(-n + 2) {
-  margin-bottom: 55px;
+  margin-bottom: 0px;
 }
 
 .list-item .about {
   font-size: 14px;
   line-height: 1.8;
-  margin: 35px 0 0 0;
+  margin: 0;
 }
 
 .button {
@@ -104,6 +108,11 @@ body {
   font-family: 'Playfair Display', serif;
   width: 165px;
   height: 60px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #03a9f3;
 }
 
 .button-text {
